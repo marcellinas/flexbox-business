@@ -1,0 +1,109 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    z-index: 1;
+    transition: all 0.5s ease-out;
+}
+header:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#logo {
+    font-family: 'Michroma', sans-serif;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+nav a {
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: inline-block;
+}
+header a:hover {
+    color: rgb(25, 108, 203);
+    transition: 0.2s;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 800;
+}
+#banner {
+    background-image: url(./Google_Bay_View_22_04_BIG_THA_2494_fulljpg.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+#about {
+    margin: 150px 50px;
+    align-items: flex-start;
+}
+article {
+    width: 600px;
+    font-size: 20px;
+}
+#left-text {
+    color: #7F534B;
+    font-size: 40px;
+    font-weight: 1000;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    padding: 80px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+#projects img, #team img {
+    height: 250px;
+    width: 400px;
+    transition: all 0.5s ease-out;
+}
+#projects,  #team {
+    justify-content: space-evenly;
+    text-align: center;
+}
+h4 {
+    margin-bottom: 60px;
+}
+#projects img:hover, #team img:hover, #contact img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#contact {
+    max-width: 1000px;
+    margin: 70px auto;
+    padding: 0 20px;  
+}
+#contact img {
+    height: 350px;
+    width: 500px;
+    transition: all 0.5s ease-out;  
+}
+#contact h2 {
+  margin-bottom: 40px;  
+}
+footer p {
+    color: slategrey;
+    padding: 40px;
+}
+
